@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+/* base seine */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* box et background */
+section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://nsa40.casimages.com/img/2021/03/01/210301121033712193.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* règle image */
+#image {
+    width:200px;
+    clip-path:ellipse(50% 50%);
+}
+
+/* règle texte 1*/
+#citation {
+    text-align: center;
+    align-items: center;
+    font-family: 'Yellowtail', cursive;
+    color: white;
+    font-size: 30px;
+    width: 550px;
+}
+
+/* règle texte 2*/
+#auteur {
+    text-align: center;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 15px;
+}
